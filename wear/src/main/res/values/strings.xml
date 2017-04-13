@@ -1,0 +1,23 @@
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+
+    <string name="app_name">WatchMI Wear 1.0</string>
+    <string name="back">B\na\nc\nk</string>
+
+    <string name="btn1">Just Try</string>
+    <string name="btn2">User Study</string>
+    <string name="btn3">Demo Apps</string>
+
+    <string name="tech1">Pressure Touch</string>
+    <string name="tech2">Twisting</string>
+    <string name="tech3">Panning</string>
+
+    <string name="app1">Clock</string>
+    <string name="app2">Map</string>
+    <string name="app3">File Explorer</string>
+    <string name="app4">app4</string>
+    <string name="app5">app5</string>
+    <string name="app6">app6</string>
+</resources>

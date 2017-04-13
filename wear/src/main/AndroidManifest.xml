@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hsyeo.watchmi">
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.DeviceDefault">
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="false" />
+
+        <activity
+            android:name=".ActivityMain"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ActivitySelectTech"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+
+        <activity
+            android:name=".ActivityTechPressure"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+
+        <activity
+            android:name=".ActivityTechTwist"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+
+        <activity
+            android:name=".ActivityTechPanning"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+
+        <activity
+            android:name=".ActivitySelectApps"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+
+        <activity
+            android:name=".ActivityAppsClock"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+
+        <activity
+            android:name=".ActivityAppsMap"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+
+        <activity
+            android:name=".ActivityAppsFileExplorer"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest>

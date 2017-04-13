@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMain"
+    tools:deviceIds="wear"
+    android:keepScreenOn="true">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="-5dp"
+        android:text="@string/back" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        app:layout_box="all">
+
+        <Button
+            android:id="@+id/btn1"
+            android:text="@string/app1"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/btn2"
+            android:text="@string/app2"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn1"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/btn3"
+            android:text="@string/app3"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/btn2"
+            android:textSize="12sp"
+            android:layout_marginBottom="-10dp"/>
+    </RelativeLayout>
+
+</android.support.wearable.view.BoxInsetLayout>

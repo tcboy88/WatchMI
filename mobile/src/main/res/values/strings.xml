@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WatchMI</string>
+    <string name="hello">Go to your Android Wear watch and launch WatchMI, for more information please watch the video on http://bit.ly/watchmi </string>
+</resources>
