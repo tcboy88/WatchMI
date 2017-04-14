@@ -63,14 +63,14 @@ public class DrawViewApps extends ImageView {
         strokeBlue.setStyle(Paint.Style.STROKE);
     }
 
-    void setShape(boolean b) {
+    void setShape(boolean b, int chinSize) {
         isRound = b;
-        if (isRound) {
+        if (chinSize != 0)
+            isRound = true;
+        if (isRound)
             halfScreen = 160;
-        }
-        else {
+        else
             halfScreen = 140;
-        }
         init();
     }
 

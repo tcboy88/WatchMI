@@ -46,81 +46,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ActivitySelectTech.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivitySelectTech.java">
+      <file leaf-file-name="ActivityTechPressure.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechPressure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="632">
+              <caret line="223" column="33" selection-start-line="223" selection-start-column="33" selection-end-line="223" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1639#1664#0" expanded="false" />
+                <element signature="e#2444#3029#0" expanded="true" />
+                <element signature="e#3028#3029#0" expanded="true" />
+                <element signature="e#6490#6556#0" expanded="false" />
+                <element signature="method#onResume#0;class#ActivityTechPressure#0" expanded="false" />
+                <element signature="method#onPause#0;class#ActivityTechPressure#0" expanded="false" />
+                <element signature="method#onAccuracyChanged#0;class#ActivityTechPressure#0" expanded="false" />
+                <element signature="method#highPass#0;class#ActivityTechPressure#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/build.gradle">
+      <file leaf-file-name="ActivityTechPanning.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechPanning.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wear/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wear/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="444">
+              <caret line="216" column="33" selection-start-line="216" selection-start-column="33" selection-end-line="216" selection-end-column="33" />
+              <folding>
+                <element signature="e#1638#1663#0" expanded="false" />
+                <element signature="e#2443#3027#0" expanded="true" />
+                <element signature="e#3026#3027#0" expanded="true" />
+                <element signature="e#5823#5889#0" expanded="false" />
+                <element signature="method#onResume#0;class#ActivityTechPanning#0" expanded="false" />
+                <element signature="method#onPause#0;class#ActivityTechPanning#0" expanded="false" />
+                <element signature="method#onAccuracyChanged#0;class#ActivityTechPanning#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,11 +87,13 @@
       <file leaf-file-name="ActivityTechTwist.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechTwist.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1750">
-              <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+            <state relative-caret-position="870">
+              <caret line="212" column="33" selection-start-line="212" selection-start-column="33" selection-end-line="212" selection-end-column="33" />
               <folding>
-                <element signature="e#1502#1527#0" expanded="false" />
-                <element signature="e#5001#5067#0" expanded="false" />
+                <element signature="e#1536#1561#0" expanded="false" />
+                <element signature="e#2341#2923#0" expanded="true" />
+                <element signature="e#2922#2923#0" expanded="true" />
+                <element signature="e#5716#5782#0" expanded="false" />
                 <element signature="method#onResume#0;class#ActivityTechTwist#0" expanded="false" />
                 <element signature="method#onPause#0;class#ActivityTechTwist#0" expanded="false" />
                 <element signature="method#onAccuracyChanged#0;class#ActivityTechTwist#0" expanded="false" />
@@ -141,29 +102,98 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoFingersDoubleTapDetector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/TwoFingersDoubleTapDetector.java">
+      <file leaf-file-name="ActivityAppsClock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsClock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+            <state relative-caret-position="907">
+              <caret line="176" column="12" selection-start-line="176" selection-start-column="12" selection-end-line="176" selection-end-column="33" />
+              <folding>
+                <element signature="e#1976#2505#0" expanded="true" />
+                <element signature="e#2504#2505#0" expanded="true" />
+                <element signature="e#3404#3443#0" expanded="false" />
+                <element signature="method#setTouchListener#0;class#ActivityAppsClock#0" expanded="false" />
+                <element signature="e#4778#4844#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityAppsFileExplorer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsFileExplorer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setTouchListener#0;class#ActivityAppsFileExplorer#0" expanded="false" />
+                <element signature="e#5218#5284#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityAppsMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+              <folding>
+                <element signature="e#1932#2459#0" expanded="true" />
+                <element signature="e#2458#2459#0" expanded="true" />
+                <element signature="method#setTouchListener#0;class#ActivityAppsMap#0" expanded="false" />
+                <element signature="e#4811#4877#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wear/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivityTechPressure.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechPressure.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2300">
-              <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
+            <state relative-caret-position="250">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivitySelectTech.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivitySelectTech.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawViewApps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/DrawViewApps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1605#1630#0" expanded="false" />
-                <element signature="e#5541#5607#0" expanded="false" />
-                <element signature="method#onResume#0;class#ActivityTechPressure#0" expanded="false" />
-                <element signature="method#onPause#0;class#ActivityTechPressure#0" expanded="false" />
-                <element signature="method#onAccuracyChanged#0;class#ActivityTechPressure#0" expanded="false" />
-                <element signature="method#highPass#0;class#ActivityTechPressure#0" expanded="false" />
+                <element signature="method#DrawViewApps#0;class#DrawViewApps#0" expanded="false" />
+                <element signature="method#init#0;class#DrawViewApps#0" expanded="false" />
+                <element signature="method#setupColors#0;class#DrawViewApps#0" expanded="false" />
+                <element signature="method#setShape#0;class#DrawViewApps#0" expanded="false" />
+                <element signature="method#setXYZ#0;class#DrawViewApps#0" expanded="false" />
+                <element signature="method#onDraw#0;class#DrawViewApps#0" expanded="false" />
+                <element signature="e#2757#2779#0" expanded="false" />
+                <element signature="method#DrawClock#0;class#DrawViewApps#0" expanded="false" />
+                <element signature="method#addHour#0;class#DrawViewApps#0" expanded="false" />
+                <element signature="method#addMinute#0;class#DrawViewApps#0" expanded="false" />
+                <element signature="method#addSecond#0;class#DrawViewApps#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -2419,7 +2449,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\TcBoY-6900\Desktop\WatchMI" value="5961108935634" />
+        <entry key="C:\Users\TcBoY-6900\Desktop\WatchMI" value="5964618227237" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2795,7 +2825,6 @@
         <option value="$PROJECT_DIR$/wear/src/main/res/layout/round_activity_main.xml" />
         <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/TwoFingersDoubleTapDetector.java" />
         <option value="$PROJECT_DIR$/wear/src/main/res/layout/activity_core.xml" />
-        <option value="$PROJECT_DIR$/mobile/build.gradle" />
         <option value="$PROJECT_DIR$/wear/src/main/res/layout/activity_select.xml" />
         <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ShapeWear.java" />
         <option value="$PROJECT_DIR$/wear/src/main/res/layout/activity_apps.xml" />
@@ -2822,23 +2851,24 @@
         <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/Constants.java" />
         <option value="$PROJECT_DIR$/wear/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/DrawView.java" />
-        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/DrawViewApps.java" />
-        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsClock.java" />
-        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsFileExplorer.java" />
-        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsMap.java" />
-        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivitySelectTech.java" />
-        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechPanning.java" />
-        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechPressure.java" />
-        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechTwist.java" />
         <option value="$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/mobile/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/DrawView.java" />
+        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/DrawViewApps.java" />
+        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsFileExplorer.java" />
+        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivitySelectTech.java" />
+        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsClock.java" />
+        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechPressure.java" />
+        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechPanning.java" />
+        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechTwist.java" />
+        <option value="$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsMap.java" />
         <option value="$PROJECT_DIR$/wear/build.gradle" />
+        <option value="$PROJECT_DIR$/mobile/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1570" />
+    <option name="x" value="1566" />
     <option name="width" value="2284" />
     <option name="height" value="2110" />
   </component>
@@ -2867,10 +2897,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
@@ -2893,6 +2924,10 @@
               <option name="myItemId" value="wear" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2900,13 +2935,54 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
+              <option name="myItemId" value="wear" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WatchMI" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wear" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="watchmi" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WatchMI" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wear" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WatchMI" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3313,23 +3389,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1570" y="0" width="2284" height="2110" extended-state="0" />
-    <editor active="true" />
+    <frame x="1566" y="0" width="2284" height="2110" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977018" sideWeight="0.4980695" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924226" sideWeight="0.4958632" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924226" sideWeight="0.5041368" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33030465" sideWeight="0.49255377" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5118588" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.4881412" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20255475" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977018" sideWeight="0.4958632" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.4870099" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.48262548" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.50165325" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17290147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.4958632" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3342,8 +3420,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20255475" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.4980695" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3358,12 +3434,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3399,13 +3478,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityMain.java">
@@ -3472,9 +3551,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_select_tech.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -3483,22 +3559,22 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_select_apps.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_select_apps.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
           <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
@@ -3506,6 +3582,9 @@
             <element signature="e#648#662#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ShapeWear.java" />
@@ -3526,14 +3605,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_core_stub.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/build/generated/source/r/debug/hsyeo/watchmi/R.java" />
@@ -3542,56 +3621,45 @@
         <state relative-caret-position="1155">
           <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#444#445#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
             <element signature="class#CustomHolder#0;class#CustomAdapter#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/custom_item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_core_circle.xml">
       <provider editor-type-id="android-designer2">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_demo_file_explorer.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_core_square.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_core_square.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="894">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="53" selection-end-column="52" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/Constants.java">
@@ -3606,7 +3674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3614,78 +3681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="144" selection-start-line="2" selection-start-column="144" selection-end-line="2" selection-end-column="144" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/DrawView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2143">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#DrawView#0;class#DrawView#0" expanded="false" />
-            <element signature="method#init#0;class#DrawView#0" expanded="false" />
-            <element signature="method#setupColors#0;class#DrawView#0" expanded="false" />
-            <element signature="method#setShape#0;class#DrawView#0" expanded="false" />
-            <element signature="method#setDrawModes#0;class#DrawView#0" expanded="false" />
-            <element signature="method#setTrial#0;class#DrawView#0" expanded="false" />
-            <element signature="method#setXYZ#0;class#DrawView#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/DrawViewApps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="187" column="0" selection-start-line="187" selection-start-column="2" selection-end-line="188" selection-end-column="95" />
-          <folding>
-            <element signature="method#DrawViewApps#0;class#DrawViewApps#0" expanded="false" />
-            <element signature="method#init#0;class#DrawViewApps#0" expanded="false" />
-            <element signature="method#setupColors#0;class#DrawViewApps#0" expanded="false" />
-            <element signature="method#setShape#0;class#DrawViewApps#0" expanded="false" />
-            <element signature="method#setXYZ#0;class#DrawViewApps#0" expanded="false" />
-            <element signature="method#onDraw#0;class#DrawViewApps#0" expanded="false" />
-            <element signature="e#2712#2734#0" expanded="false" />
-            <element signature="method#DrawClock#0;class#DrawViewApps#0" expanded="false" />
-            <element signature="method#addHour#0;class#DrawViewApps#0" expanded="false" />
-            <element signature="method#addMinute#0;class#DrawViewApps#0" expanded="false" />
-            <element signature="method#addSecond#0;class#DrawViewApps#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997">
-          <caret line="76" column="74" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
-          <folding>
-            <element signature="method#setTouchListener#0;class#ActivityAppsClock#0" expanded="false" />
-            <element signature="e#4071#4137#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsFileExplorer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="85" column="69" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setTouchListener#0;class#ActivityAppsFileExplorer#0" expanded="false" />
-            <element signature="e#5009#5075#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="73" column="68" selection-start-line="73" selection-start-column="68" selection-end-line="73" selection-end-column="68" />
-          <folding>
-            <element signature="method#setTouchListener#0;class#ActivityAppsMap#0" expanded="false" />
-            <element signature="e#4104#4170#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3705,50 +3700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechPanning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1675">
-          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="100" selection-end-column="17" />
-          <folding>
-            <element signature="e#1604#1629#0" expanded="false" />
-            <element signature="e#5108#5174#0" expanded="false" />
-            <element signature="method#onResume#0;class#ActivityTechPanning#0" expanded="false" />
-            <element signature="method#onPause#0;class#ActivityTechPanning#0" expanded="false" />
-            <element signature="method#onAccuracyChanged#0;class#ActivityTechPanning#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechPressure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2300">
-          <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1605#1630#0" expanded="false" />
-            <element signature="e#5541#5607#0" expanded="false" />
-            <element signature="method#onResume#0;class#ActivityTechPressure#0" expanded="false" />
-            <element signature="method#onPause#0;class#ActivityTechPressure#0" expanded="false" />
-            <element signature="method#onAccuracyChanged#0;class#ActivityTechPressure#0" expanded="false" />
-            <element signature="method#highPass#0;class#ActivityTechPressure#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechTwist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1750">
-          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
-          <folding>
-            <element signature="e#1502#1527#0" expanded="false" />
-            <element signature="e#5001#5067#0" expanded="false" />
-            <element signature="method#onResume#0;class#ActivityTechTwist#0" expanded="false" />
-            <element signature="method#onPause#0;class#ActivityTechTwist#0" expanded="false" />
-            <element signature="method#onAccuracyChanged#0;class#ActivityTechTwist#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/TwoFingersDoubleTapDetector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -3757,42 +3708,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivitySelectTech.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wear/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -3803,21 +3748,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
+    <entry file="file://$PROJECT_DIR$/wear/src/main/res/layout/activity_core_circle.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1131">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/DrawView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        <state relative-caret-position="378">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="93" selection-end-column="5" />
+          <folding>
+            <element signature="method#DrawView#0;class#DrawView#0" expanded="false" />
+            <element signature="method#init#0;class#DrawView#0" expanded="false" />
+            <element signature="method#setupColors#0;class#DrawView#0" expanded="false" />
+            <element signature="method#setDrawModes#0;class#DrawView#0" expanded="false" />
+            <element signature="method#setTrial#0;class#DrawView#0" expanded="false" />
+            <element signature="method#setXYZ#0;class#DrawView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/DrawViewApps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="method#DrawViewApps#0;class#DrawViewApps#0" expanded="false" />
+            <element signature="method#init#0;class#DrawViewApps#0" expanded="false" />
+            <element signature="method#setupColors#0;class#DrawViewApps#0" expanded="false" />
+            <element signature="method#setShape#0;class#DrawViewApps#0" expanded="false" />
+            <element signature="method#setXYZ#0;class#DrawViewApps#0" expanded="false" />
+            <element signature="method#onDraw#0;class#DrawViewApps#0" expanded="false" />
+            <element signature="e#2757#2779#0" expanded="false" />
+            <element signature="method#DrawClock#0;class#DrawViewApps#0" expanded="false" />
+            <element signature="method#addHour#0;class#DrawViewApps#0" expanded="false" />
+            <element signature="method#addMinute#0;class#DrawViewApps#0" expanded="false" />
+            <element signature="method#addSecond#0;class#DrawViewApps#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivitySelectTech.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechPressure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="223" column="33" selection-start-line="223" selection-start-column="33" selection-end-line="223" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1639#1664#0" expanded="false" />
+            <element signature="e#2444#3029#0" expanded="true" />
+            <element signature="e#3028#3029#0" expanded="true" />
+            <element signature="e#6490#6556#0" expanded="false" />
+            <element signature="method#onResume#0;class#ActivityTechPressure#0" expanded="false" />
+            <element signature="method#onPause#0;class#ActivityTechPressure#0" expanded="false" />
+            <element signature="method#onAccuracyChanged#0;class#ActivityTechPressure#0" expanded="false" />
+            <element signature="method#highPass#0;class#ActivityTechPressure#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechPanning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="216" column="33" selection-start-line="216" selection-start-column="33" selection-end-line="216" selection-end-column="33" />
+          <folding>
+            <element signature="e#1638#1663#0" expanded="false" />
+            <element signature="e#2443#3027#0" expanded="true" />
+            <element signature="e#3026#3027#0" expanded="true" />
+            <element signature="e#5823#5889#0" expanded="false" />
+            <element signature="method#onResume#0;class#ActivityTechPanning#0" expanded="false" />
+            <element signature="method#onPause#0;class#ActivityTechPanning#0" expanded="false" />
+            <element signature="method#onAccuracyChanged#0;class#ActivityTechPanning#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityTechTwist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="212" column="33" selection-start-line="212" selection-start-column="33" selection-end-line="212" selection-end-column="33" />
+          <folding>
+            <element signature="e#1536#1561#0" expanded="false" />
+            <element signature="e#2341#2923#0" expanded="true" />
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#5716#5782#0" expanded="false" />
+            <element signature="method#onResume#0;class#ActivityTechTwist#0" expanded="false" />
+            <element signature="method#onPause#0;class#ActivityTechTwist#0" expanded="false" />
+            <element signature="method#onAccuracyChanged#0;class#ActivityTechTwist#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="176" column="12" selection-start-line="176" selection-start-column="12" selection-end-line="176" selection-end-column="33" />
+          <folding>
+            <element signature="e#1976#2505#0" expanded="true" />
+            <element signature="e#2504#2505#0" expanded="true" />
+            <element signature="e#3404#3443#0" expanded="false" />
+            <element signature="method#setTouchListener#0;class#ActivityAppsClock#0" expanded="false" />
+            <element signature="e#4778#4844#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsFileExplorer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setTouchListener#0;class#ActivityAppsFileExplorer#0" expanded="false" />
+            <element signature="e#5218#5284#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wear/src/main/java/hsyeo/watchmi/ActivityAppsMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+          <folding>
+            <element signature="e#1932#2459#0" expanded="true" />
+            <element signature="e#2458#2459#0" expanded="true" />
+            <element signature="method#setTouchListener#0;class#ActivityAppsMap#0" expanded="false" />
+            <element signature="e#4811#4877#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wear/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
       </provider>

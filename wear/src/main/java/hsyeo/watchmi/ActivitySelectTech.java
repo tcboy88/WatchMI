@@ -31,10 +31,10 @@ public class ActivitySelectTech extends WearableActivity {
         if (extras != null) {
             if (extras.getBoolean("study") == true) {
                 isStudy = true;
-                Log.e("YEO","isStudy = true");
+                Log.w("YEO","isStudy = true");
             } else {
                 isStudy = false;
-                Log.e("YEO","isStudy = false");
+                Log.w("YEO","isStudy = false");
             }
         }
     }

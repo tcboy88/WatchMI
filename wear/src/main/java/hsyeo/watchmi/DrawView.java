@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 public class DrawView extends View {
@@ -22,6 +23,7 @@ public class DrawView extends View {
     float x,y,z;
 
     int halfScreen = 160; // 160 for circle watch, 140 for square watch
+    int halfX = 160, halfY = 160;
     boolean isRound = false;
 
     public DrawView(Context context, AttributeSet attrs) {
@@ -80,14 +82,14 @@ public class DrawView extends View {
         paintHighlightTask.setAntiAlias(true);
     }
 
-    void setShape(boolean b) {
+    void setShape(boolean b, int chinSize) {
         isRound = b;
-        if (isRound) {
+        if (chinSize != 0)
+            isRound = true;
+        if (isRound)
             halfScreen = 160;
-        }
-        else {
+        else
             halfScreen = 140;
-        }
         init();
     }
 

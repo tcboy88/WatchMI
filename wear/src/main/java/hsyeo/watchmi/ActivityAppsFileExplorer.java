@@ -77,7 +77,12 @@ public class ActivityAppsFileExplorer extends WearableActivity implements Sensor
 
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_GAME_ROTATION_VECTOR);
-        if (mSensor == null) Log.e("YEO", "Failed to attach to sensor.");
+        if (mSensor == null) {
+            Log.w("YEO", "Failed to attach to game rot vec.");
+            mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_ROTATION_VECTOR);
+            if (mSensor == null)
+                Log.w("YEO", "Failed to attach to rot vec.");
+        }
 //region Exit by two fingers double tap
         twoFingersListener = new TwoFingersDoubleTapDetector() {
             @Override
@@ -157,7 +162,7 @@ public class ActivityAppsFileExplorer extends WearableActivity implements Sensor
     public void onSensorChanged(SensorEvent event) {
         if (event.accuracy == SensorManager.SENSOR_STATUS_UNRELIABLE) { return; }
 
-        if (event.sensor.getType() == Sensor.TYPE_GAME_ROTATION_VECTOR) {
+        if (event.sensor.getType() == Sensor.TYPE_GAME_ROTATION_VECTOR || event.sensor.getType() == Sensor.TYPE_ROTATION_VECTOR) {
             SensorManager.getRotationMatrixFromVector(mRotationMatrix, event.values);
             SensorManager.getOrientation(mRotationMatrix, rotValues);
             pitch = rotValues[1];

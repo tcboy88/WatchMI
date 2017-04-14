@@ -15,6 +15,7 @@ import android.util.Log;
 import android.util.Pair;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.WindowInsets;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -65,11 +66,19 @@ public class ActivityTechPanning extends WearableActivity implements SensorEvent
             @Override
             public void onLayoutInflated(WatchViewStub stub) {
                 mContainerView = (BoxInsetLayout) findViewById(R.id.container);
-                setTouchListener();
                 drawView = (DrawView) findViewById(R.id.draw_view);
-                drawView.setShape(mContainerView.isRound());
-                drawView.setDrawModes(DrawView.DrawModes.PANNING);
-                drawView.setStudyModes(isStudy);
+                mContainerView.setOnApplyWindowInsetsListener(new View.OnApplyWindowInsetsListener() {
+                    @Override
+                    public WindowInsets onApplyWindowInsets(View v, WindowInsets insets) {
+                        int mChinSize = insets.getSystemWindowInsetBottom();
+                        v.onApplyWindowInsets(insets);
+                        drawView.setShape(mContainerView.isRound(), mChinSize);
+                        drawView.setDrawModes(DrawView.DrawModes.PANNING);
+                        drawView.setStudyModes(isStudy);
+                        return insets;
+                    }
+                });
+                setTouchListener();
                 tv1 = (TextView) findViewById(R.id.tv1);
                 tv2 = (TextView) findViewById(R.id.tv2);
                 tv3 = (TextView) findViewById(R.id.tv3);
@@ -87,7 +96,12 @@ public class ActivityTechPanning extends WearableActivity implements SensorEvent
 
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_GAME_ROTATION_VECTOR);
-        if (mSensor == null) Log.e("YEO", "Failed to attach to sensor.");
+        if (mSensor == null) {
+            Log.w("YEO", "Failed to attach to game rot vec.");
+            mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_ROTATION_VECTOR);
+            if (mSensor == null)
+                Log.w("YEO", "Failed to attach to rot vec.");
+        }
 //region Exit by two fingers double tap
         twoFingersListener = new TwoFingersDoubleTapDetector() {
             @Override
@@ -156,7 +170,7 @@ public class ActivityTechPanning extends WearableActivity implements SensorEvent
     public void onSensorChanged(SensorEvent event) {
         if (event.accuracy == SensorManager.SENSOR_STATUS_UNRELIABLE) { return; }
 
-        if (event.sensor.getType() == Sensor.TYPE_GAME_ROTATION_VECTOR) {
+        if (event.sensor.getType() == Sensor.TYPE_GAME_ROTATION_VECTOR || event.sensor.getType() == Sensor.TYPE_ROTATION_VECTOR) {
             SensorManager.getRotationMatrixFromVector(mRotationMatrix, event.values);
             SensorManager.getOrientation(mRotationMatrix, rotValues);
             yaw = rotValues[0];
@@ -200,7 +214,7 @@ public class ActivityTechPanning extends WearableActivity implements SensorEvent
             }else {
                 diffX = diffY = diffZ = 0;
             }
-
+            if (drawView != null)
             drawView.invalidate();
         }
     }
