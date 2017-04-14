@@ -13,8 +13,8 @@ Get it from playstore here: https://play.google.com/store/apps/details?id=hsyeo.
 Install to your phone and wait for it to sync with your smartwatch.
 (In some rare occasion it didn't sync then get the wear APK from here and sideload it to your watch.)
 
-Mobile APK with embedded wear APK (for Wear 1.x) https://www.dropbox.com/s/4mh8l85zhdrvpvy/mobile-release.apk?dl=0
-Wear APK only (need to sideload it) https://www.dropbox.com/s/31ea9m3k3qimlmq/wear-release.apk?dl=0
+Mobile APK with embedded wear APK (for Wear 1.x) https://www.dropbox.com/s/ifyefje2ocvur6v/mobile-release.apk?dl=0
+Wear APK only (need to sideload it) https://www.dropbox.com/s/b3ortx61e9hgh9c/wear-release.apk?dl=0
 
 Currently it doesn't work well on watch without magnetometer such as Huawei watch v1.
 
