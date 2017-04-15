@@ -23,6 +23,7 @@ public class Util {
         return level;
     }
 
+    //TODO: improve this hardcoded piece of ...
     String globalPos = "";
     int direction = 0;
     int one, two;
@@ -33,7 +34,7 @@ public class Util {
             one = 93; two = 186;
         }
 
-        //region classify touch region based on touch location
+//region classify touch region based on touch location
         if (x < one && y < one) {
             globalPos = "Top Left";
             direction = 8;

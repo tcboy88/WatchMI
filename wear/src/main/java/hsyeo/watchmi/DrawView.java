@@ -6,8 +6,11 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.AttributeSet;
+import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.Display;
 import android.view.View;
+import android.view.WindowManager;
 
 public class DrawView extends View {
     public enum DrawModes {PRESSURE, TWIST, PANNING, NONE}
@@ -22,12 +25,18 @@ public class DrawView extends View {
 
     float x,y,z;
 
+    int displayWidth, displayHeight;
     int halfScreen = 160; // 160 for circle watch, 140 for square watch
-    int halfX = 160, halfY = 160;
+
     boolean isRound = false;
 
     public DrawView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        DisplayMetrics metrics = new DisplayMetrics();
+        wm.getDefaultDisplay().getMetrics(metrics);
+        displayWidth = metrics.widthPixels;
+        displayHeight = metrics.heightPixels;
         init();
         setupColors();
     }
@@ -87,9 +96,9 @@ public class DrawView extends View {
         if (chinSize != 0)
             isRound = true;
         if (isRound)
-            halfScreen = 160;
+            halfScreen = displayWidth/2;
         else
-            halfScreen = 140;
+            halfScreen = displayWidth/2;
         init();
     }
 
@@ -205,7 +214,7 @@ public class DrawView extends View {
         int lvl1 = 20, lvl2 = 40, lvl3 = 60, lvl4 = 80, lvl5 = 130;
         if (dm == DrawModes.TWIST) {
             paintHighlightTask.setStrokeWidth(40);
-            strokeBlue.setStrokeWidth(40);
+            strokeBlue.setStrokeWidth(30);
             strokeBlue.setStrokeCap(Paint.Cap.SQUARE);
         } else if (dm == DrawModes.PANNING) {
             lvl1 = 30; lvl2 = 60; lvl3 = 90; lvl4 = 120;

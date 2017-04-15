@@ -9,7 +9,9 @@ import android.graphics.RectF;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
+import android.util.DisplayMetrics;
 import android.util.Log;
+import android.view.WindowManager;
 import android.widget.ImageView;
 
 public class DrawViewApps extends ImageView {
@@ -22,11 +24,17 @@ public class DrawViewApps extends ImageView {
 
     float x,y,z;
 
+    int displayWidth, displayheight;
     int halfScreen = 160; // 160 for circle watch, 140 for square watch
     boolean isRound = false;
 
     public DrawViewApps(Context context, AttributeSet attrs) {
         super(context, attrs);
+        WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        DisplayMetrics metrics = new DisplayMetrics();
+        wm.getDefaultDisplay().getMetrics(metrics);
+        displayWidth = metrics.widthPixels;
+        displayheight = metrics.heightPixels;
         init();
         setupColors();
     }
@@ -68,9 +76,9 @@ public class DrawViewApps extends ImageView {
         if (chinSize != 0)
             isRound = true;
         if (isRound)
-            halfScreen = 160;
+            halfScreen = displayWidth/2;
         else
-            halfScreen = 140;
+            halfScreen = displayWidth/2;
         init();
     }
 
